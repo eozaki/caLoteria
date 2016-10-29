@@ -1,0 +1,26 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// in case your dealing with a block element apply this to the element itself 
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+// in case your dealing with a inline element apply this to the parent 
+.text-center {
+   text-align:center
+}
+
+.container-fluid {
+    margin-top: 25%;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+div {
+  font-size: 1.5em;
+}
