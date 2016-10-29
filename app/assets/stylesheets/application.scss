@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background: url('background.jpg');
+  background-size: cover;
+  color: #131;
+}
+
 // in case your dealing with a block element apply this to the element itself 
 .center-block {
    margin-left:auto;
