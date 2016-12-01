@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@media (max-width: 991px) {
+    body {
+      font-size: 8vh;
+    }
+}
+
 body {
   background: #131;
   background-size: cover;
